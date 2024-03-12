@@ -1,0 +1,19 @@
+BR 51 U 6788 , BR51U6788 are correct
+BR 51 U 6788 , BR51U6788 are correct
+DN 26 H 6104 , DN26H6104 are correct
+UK 53 NI 1299 , UK53NI1299 are correct
+MZ 34 W 2258 , MZ34W2258 are correct
+AR 11 Z 6131 , AR11Z6131 are correct
+OR 23 FW 1462 , OR23FW1462 are correct
+JH 72 1 4466 , JH72I4466 are not correct
+MH 85 R 1068 , MH85R1068 are correct
+NL 62 MH 2421 , NL62MH2421 are correct
+KL 19 YZ 7486 , KL19YZ7486 are correct
+AS 38 A 3482 , AS38A3482 are correct
+CG 06 N 1417 , CG06N1417  are not correct
+TR 00 10 2184 , TR00IO2184  are not correct
+UA 77 JF 9233 , UA77JF9233 are correct
+16 , MH29G1695 are not correct
+
+16 , MH29G1695 are not correct
+ 

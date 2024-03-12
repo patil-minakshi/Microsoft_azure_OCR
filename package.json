@@ -1,0 +1,16 @@
+{
+  "name": "testhackerearth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Minakshi patil",
+  "license": "ISC",
+  "dependencies": {
+    "@azure-rest/ai-vision-image-analysis": "^1.0.0-beta.2",
+    "dotenv": "^16.4.5"
+  }
+}
