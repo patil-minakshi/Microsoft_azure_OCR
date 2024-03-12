@@ -13,7 +13,15 @@ AS 38 A 3482 , AS38A3482 are correct
 CG 06 N 1417 , CG06N1417  are not correct
 TR 00 10 2184 , TR00IO2184  are not correct
 UA 77 JF 9233 , UA77JF9233 are correct
-16 , MH29G1695 are not correct
+16 , DD86F5508 are not correct
+DD 86 F 5508 , DD86F5508 are correct
+UK 53 VS 3432 , UK53VS3432 are correct
+CG OI WF 2678 , CG01WF2678 are not correct
+CG OI WF 2678 , CG01WF2678 are not correct
+CG OI WF 2678 , CG01WF2678 are not correct
+MP 51 LE 6037 , MP51LE6037 are correct
+TS 06 JD 9548 , TS06JD9548 are correct
+TR 13 X 3008 , TR13X3008 are correct
 
-16 , MH29G1695 are not correct
- 
+
+

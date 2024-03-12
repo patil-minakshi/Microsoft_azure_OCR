@@ -9,14 +9,14 @@ const { AzureKeyCredential } = require('@azure/core-auth');
  
 require('dotenv').config()
 
-const predicted =     'MH29G1695'
+const predicted =     'TR13X3008'
 
 const endpoint = process.env['VISION_ENDPOINT'] || '<your_endpoint>';
 const key = process.env['VISION_KEY'] || '<your_key>';
 const credential = new AzureKeyCredential(key);
 
 
-console.log(endpoint);
+
 const destinationFIle = './PS1-TR-Data/output.txt/'
 
 const client = createClient (endpoint, credential);
@@ -30,7 +30,10 @@ const feature = [
   'SmartCrops',
   'Tags'
 ];
-const imagePath = './PS1-TR-Data/images/20.jpg';
+const ratio = [0.9, 1.33];
+
+const language = 'en'
+const imagePath = './PS1-TR-Data/images/27.jpg';
 
 async function analyzeImageFromFile() {
   const imageBuffer = fs.readFileSync(imagePath);
@@ -39,7 +42,8 @@ async function analyzeImageFromFile() {
     body: imageBuffer,
     queryParameters: {
       features: feature,
-      'smartCrops-aspect-ratios': [0.9, 1.33]
+      language: language,
+      'smartcrops-aspect-ratios' : ratio
     },
     contentType: 'application/octet-stream'
   });
